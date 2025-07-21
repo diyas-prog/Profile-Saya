@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #000;
+  min-height: 100vh;
+  position: relative;
+  color: #fff;
+}
+
+.overlay-gradient {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background: linear-gradient(135deg, #fff 0%, #000 100%);
+  opacity: 0.3;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 600px;
+  margin: 40px auto;
+  background: rgba(20,20,20,0.8);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+  padding: 32px;
+}
+
+.hero img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  margin-bottom: 16px;
+}
+
+h1, h2 {
+  margin: 0 0 12px 0;
+  font-weight: 600;
+}
+
+.tagline {
+  font-size: 1.1em;
+  margin-bottom: 16px;
+}
+
+.sosial a {
+  color: #fff;
+  background: #222;
+  padding: 8px 16px;
+  margin: 0 8px 0 0;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+.sosial a:hover {
+  background: #fff;
+  color: #000;
+}
+
+section {
+  margin-bottom: 24px;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  opacity: 0.7;
+}
